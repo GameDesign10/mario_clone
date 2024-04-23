@@ -1,0 +1,58 @@
+[gd_scene load_steps=3 format=3 uid="uid://b6arb6byxjw3v"]
+
+[ext_resource type="PackedScene" uid="uid://obhxu384ycn5" path="res://block.tscn" id="1_u6kr8"]
+[ext_resource type="PackedScene" uid="uid://breslrdu4ta07" path="res://player.tscn" id="2_2jgat"]
+
+[node name="Node2D" type="Node2D"]
+position = Vector2(41, 23)
+
+[node name="Block" parent="." instance=ExtResource("1_u6kr8")]
+position = Vector2(-9, 27)
+
+[node name="Block2" parent="." instance=ExtResource("1_u6kr8")]
+position = Vector2(-9, 45)
+
+[node name="Block6" parent="." instance=ExtResource("1_u6kr8")]
+position = Vector2(-9, 63)
+
+[node name="Block7" parent="." instance=ExtResource("1_u6kr8")]
+position = Vector2(-9, 81)
+
+[node name="Block5" parent="." instance=ExtResource("1_u6kr8")]
+position = Vector2(44, 27)
+
+[node name="Block8" parent="." instance=ExtResource("1_u6kr8")]
+position = Vector2(62, 27)
+
+[node name="Block9" parent="." instance=ExtResource("1_u6kr8")]
+position = Vector2(62, 45)
+
+[node name="Block10" parent="." instance=ExtResource("1_u6kr8")]
+position = Vector2(80, 45)
+
+[node name="Block11" parent="." instance=ExtResource("1_u6kr8")]
+position = Vector2(98, 45)
+
+[node name="Block12" parent="." instance=ExtResource("1_u6kr8")]
+position = Vector2(116, 45)
+
+[node name="Block13" parent="." instance=ExtResource("1_u6kr8")]
+position = Vector2(134, 45)
+
+[node name="Block14" parent="." instance=ExtResource("1_u6kr8")]
+position = Vector2(152, 45)
+
+[node name="Block15" parent="." instance=ExtResource("1_u6kr8")]
+position = Vector2(170, 45)
+
+[node name="Block16" parent="." instance=ExtResource("1_u6kr8")]
+position = Vector2(188, 45)
+
+[node name="Block3" parent="." instance=ExtResource("1_u6kr8")]
+position = Vector2(27, 27)
+
+[node name="Block4" parent="." instance=ExtResource("1_u6kr8")]
+position = Vector2(9, 27)
+
+[node name="player" parent="." instance=ExtResource("2_2jgat")]
+position = Vector2(93, 18)
